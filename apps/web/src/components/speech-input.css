@@ -1,0 +1,15 @@
+.c-speeh-input {
+    @apply flex flex-col gap-2;
+
+    .--ordering {
+        @apply bg-blue-900 border-blue-300;
+    }
+
+    .--enabled {
+        @apply bg-green-900 border-green-300;
+    }
+
+    .--disabled {
+        @apply bg-red-900 border-red-300;
+    }
+}
